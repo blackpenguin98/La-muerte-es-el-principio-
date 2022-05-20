@@ -109,8 +109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   over: 0
-  sizeX: 6.79
-  sizeZ: 5.91
+  sizeX: 8
+  sizeZ: 8
+  sizeY: 5
   layer:
     serializedVersion: 2
     m_Bits: 64

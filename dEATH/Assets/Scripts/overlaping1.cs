@@ -9,12 +9,13 @@ public class overlaping1 : MonoBehaviour
     public float sizeX = 5;
 
     public float sizeZ = 5;
+    public float sizeY = 5;
     public LayerMask layer;
     public int id;
     // Start is called before the first frame update
     void Start()
     {
-        over = Physics.CheckBox(transform.GetChild(0).transform.GetChild(transform.GetChild(0).transform.childCount - 1).transform.position, new Vector3(sizeX / 2, 100, sizeZ / 2), Quaternion.identity, layer);
+        over = Physics.CheckBox(transform.GetChild(0).transform.GetChild(transform.GetChild(0).transform.childCount - 1).transform.position, new Vector3(sizeX / 2, sizeY /2, sizeZ / 2), Quaternion.identity, layer);
     }
 
     // Update is called once per frame
@@ -30,7 +31,7 @@ public class overlaping1 : MonoBehaviour
 
         if (!GameObject.Find("generator").GetComponent<InsideGenV2>().debugging)
         {
-            Gizmos.DrawCube(transform.GetChild(0).transform.GetChild(transform.GetChild(0).transform.childCount - 1).transform.position, new Vector3(sizeX, 100, sizeZ));
+            Gizmos.DrawCube(transform.GetChild(0).transform.GetChild(transform.GetChild(0).transform.childCount - 1).transform.position, new Vector3(sizeX, sizeY, sizeZ));
         }
 
     }

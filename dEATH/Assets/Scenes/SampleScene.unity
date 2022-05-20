@@ -250,6 +250,7 @@ MonoBehaviour:
   - {fileID: 2595122920087235900, guid: 4f63b40edee667249bac8a00c8c17bf9, type: 3}
   - {fileID: 2595122920087235900, guid: 4632b07b25a9ee34c92c063480b534fa, type: 3}
   - {fileID: 2595122920087235900, guid: 7573601273903b74783c78736ad6c43d, type: 3}
+  - {fileID: 2595122920087235900, guid: 891afb8c748965948bd7d60b4283b809, type: 3}
   - {fileID: 2595122920087235900, guid: 4f63b40edee667249bac8a00c8c17bf9, type: 3}
   holder: {fileID: 0}
   roomsPlaced:
@@ -4254,9 +4255,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  debugging: 1
+  debugging: 0
   roomsToPlace: 10
-  seed: 20
+  seed: 456545
   roomsPlacedActually: 0
   missingRooms: 0
 --- !u!4 &870381430
