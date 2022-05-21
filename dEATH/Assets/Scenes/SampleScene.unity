@@ -4255,7 +4255,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  debugging: 0
+  debugging: 1
   roomsToPlace: 10
   seed: 456545
   roomsPlacedActually: 0
