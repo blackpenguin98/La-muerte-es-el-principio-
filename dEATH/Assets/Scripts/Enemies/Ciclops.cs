@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class Ciclops : MonoBehaviour
 {
+    public int health;
 
     private Animator animator;
     private GameObject player;
@@ -35,6 +36,8 @@ public class Ciclops : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if(health > 0) { 
         
 
         if(Vector3.Distance(transform.position, player.transform.position) <= persueRange)
@@ -78,7 +81,10 @@ public class Ciclops : MonoBehaviour
 
 
 
-
+        } else
+        {
+            Destroy(gameObject);
+        }
 
 
 

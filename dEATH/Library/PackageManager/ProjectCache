@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637887401552552127
-    m_Hash: 469651248
+      ticks: 637887736490090308
+    m_Hash: 4058563467
   m_LockFileStatus:
     m_FilePath: M:/Unity/Projects/XP/Jams/Hades Jam/La-muerte-es-el-principio-/dEATH/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637887401553334507
-    m_Hash: 3507639265
+      ticks: 637887736490090308
+    m_Hash: 2492234334
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

@@ -17,6 +17,10 @@ public class playerController : MonoBehaviour
     public LayerMask isGround;
     bool isGrounded;
     public Transform groundCheck;
+
+    public Animator anim;
+
+    bool isAttaking;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +33,25 @@ public class playerController : MonoBehaviour
 
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
+
+
+        if (isAttaking)
+        {
+            horizontal = 0;
+            vertical = 0;
+        }
+
+        if(Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+        {
+            anim.SetBool("isWalking", true);
+        }else
+        {
+            anim.SetBool("isWalking", false);
+        }
+
+        
+
+
 
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
@@ -58,5 +81,20 @@ public class playerController : MonoBehaviour
         }
 
 
+        if (Input.GetButtonDown("Fire1"))
+        {
+            isAttaking = true;
+            anim.SetTrigger("attack");
+            StartCoroutine(enableWalking());
+        }
+
+
+    }
+
+
+    IEnumerator enableWalking()
+    {
+        yield return new WaitForSeconds(2f);
+        isAttaking = false;
     }
 }

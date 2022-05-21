@@ -8,6 +8,7 @@ TagManager:
   - exit
   - enter
   - collider
+  - enemy
   layers:
   - Default
   - TransparentFX

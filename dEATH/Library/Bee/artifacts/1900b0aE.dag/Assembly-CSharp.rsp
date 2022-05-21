@@ -357,6 +357,7 @@
 "Assets/Scripts/Generation/openEntry.cs"
 "Assets/Scripts/Generation/overlaping1.cs"
 "Assets/Scripts/Player/playerController.cs"
+"Assets/Scripts/Player/spear.cs"
 -langversion:9.0
 
 /deterministic
