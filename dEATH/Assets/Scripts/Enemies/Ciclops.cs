@@ -16,9 +16,13 @@ public class Ciclops : MonoBehaviour
 
     bool oncePunch;
 
+    bool hasHit;
+
 
     float timePassed = 0;
-    public float waitingTime = 2; 
+    public float waitingTime = 2;
+
+    bool attaking;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,9 +53,10 @@ public class Ciclops : MonoBehaviour
                     timePassed = 0;
                 }
 
+                attaking = true;
 
             }
-            else
+            else if(Vector3.Distance(transform.position, player.transform.position) <= persueRange && !attaking)
             {
                 animator.SetBool("isWalking", true);
                 transform.LookAt(player.transform.GetChild(0).position);
@@ -67,6 +72,8 @@ public class Ciclops : MonoBehaviour
         if(timePassed >= waitingTime)
         {
             oncePunch = false;
+            attaking = false;
+           
         }
 
 
@@ -82,6 +89,34 @@ public class Ciclops : MonoBehaviour
 
     }
 
+
+
+    public void hitCollisionAnim()
+    {
+        if (hasHit)
+        {
+            player.transform.Translate(transform.GetChild(4).forward * Time.deltaTime * 1500);
+        }
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player")
+        {
+            hasHit = true;
+        }
+        
+    }
+
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            hasHit = false;
+        }
+    }
 
 
     private void OnDrawGizmos()

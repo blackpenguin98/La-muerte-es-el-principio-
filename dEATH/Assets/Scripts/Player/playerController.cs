@@ -13,6 +13,10 @@ public class playerController : MonoBehaviour
     public Transform cam;
 
     public CharacterController controller;
+
+    public LayerMask isGround;
+    bool isGrounded;
+    public Transform groundCheck;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +43,18 @@ public class playerController : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
 
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
+        }
+
+        isGrounded = Physics.CheckSphere(groundCheck.position, .2f);
+
+        if (isGrounded)
+        {
+            Debug.Log("piso");
+        }
+        else
+        {
+            transform.Translate(new Vector3(0, -9.81f, 0) * Time.deltaTime);
+
         }
 
 
