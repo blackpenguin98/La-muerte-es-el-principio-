@@ -59,12 +59,12 @@
     <Compile Include="Assets\Scripts\Player\spear.cs" />
     <Compile Include="Assets\Scripts\Generation\openEntry.cs" />
     <Compile Include="Assets\Scripts\Generation\overlaping1.cs" />
+    <Compile Include="Assets\Scripts\UI\UI.cs" />
     <Compile Include="Assets\Scripts\Generation\InsideGenV2.cs" />
     <Compile Include="Assets\Scripts\Player\playerController.cs" />
-    <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
     <Compile Include="Assets\Scripts\Player\stats.cs" />
     <Compile Include="Assets\Scripts\Player\blood.cs" />
-    <Compile Include="Assets\Scripts\UI\UI.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
