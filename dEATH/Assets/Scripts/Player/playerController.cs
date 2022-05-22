@@ -96,5 +96,13 @@ public class playerController : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         isAttaking = false;
+        GameObject.Find("spear:pCylinder3").GetComponent<spear>().hasDamaged = false;
     }
+
+    public void blood()
+    {
+        Debug.Log("blood");
+    }
+
+
 }

@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class Ciclops : MonoBehaviour
 {
     public int health;
+    public int damage = 40;
 
     private Animator animator;
     private GameObject player;
@@ -102,6 +103,7 @@ public class Ciclops : MonoBehaviour
         if (hasHit)
         {
             player.transform.Translate(transform.GetChild(4).forward * Time.deltaTime * 1500);
+            player.GetComponent<stats>().health -= damage;
         }
     }
 
