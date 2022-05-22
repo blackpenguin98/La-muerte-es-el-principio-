@@ -102,8 +102,11 @@ public class Ciclops : MonoBehaviour
     {
         if (hasHit)
         {
-            player.transform.Translate(transform.GetChild(4).transform.worldToLocalMatrix.MultiplyVector(transform.forward) * Time.deltaTime * 1500);
+            player.GetComponent<playerController>().TrollTrow(-this.transform.worldToLocalMatrix.MultiplyVector(this.transform.forward));
+            player.transform.LookAt(transform.GetChild(4).position);
+            GameObject.Find("iddle").GetComponent<Animator>().SetTrigger("trow");
             player.GetComponent<stats>().health -= damage;
+            player.GetComponent<playerController>().trowing = true;
         }
     }
 

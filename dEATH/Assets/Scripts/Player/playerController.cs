@@ -32,6 +32,12 @@ public class playerController : MonoBehaviour
     bool cauntingtime;
 
     int attackAnimN = 0;
+
+    public bool trowing;
+
+    bool onceT;
+
+    Vector3 tDirection;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +52,7 @@ public class playerController : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
 
 
-        if(Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Horizontal") != 0 || Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") != 0 )
+        if(Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Horizontal") != 0 && !trowing || Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") != 0 && !trowing )
         {
             if(GetComponent<stats>().stamina >= 2000)
             {
@@ -112,7 +118,7 @@ public class playerController : MonoBehaviour
 
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-        if(direction.magnitude >= 0.1f)
+        if(direction.magnitude >= 0.1f && !trowing)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
 
@@ -138,7 +144,7 @@ public class playerController : MonoBehaviour
         }
 
 
-        if (Input.GetButtonDown("Fire1") && GetComponent<stats>().stamina >= 1000)
+        if (Input.GetButtonDown("Fire1") && GetComponent<stats>().stamina >= 1000 && !trowing)
         {
             isAttaking = true;
             StartCoroutine(enableWalking());
@@ -158,6 +164,20 @@ public class playerController : MonoBehaviour
             }
 
 
+        }
+
+        Debug.Log(trowing);
+
+        if (trowing)
+        {
+            
+            transform.Translate(tDirection * Time.deltaTime * 800);
+
+            if (!onceT)
+            {
+                onceT = true;
+                StartCoroutine(stopTrow());
+            }
         }
 
 
@@ -182,6 +202,22 @@ public class playerController : MonoBehaviour
         yield return new WaitForSeconds(4f);
         restoringStamina = true;
 
+    }
+
+
+    public void TrollTrow(Vector3 direction)
+    {
+        tDirection = direction;
+    }
+
+
+    IEnumerator stopTrow()
+    {
+        yield return new WaitForSeconds(1.2f);
+        trowing = false;
+        onceT = false;
+
+        
     }
 
 

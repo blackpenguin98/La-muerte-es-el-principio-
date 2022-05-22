@@ -180,6 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   turnSmoothTime: 0.1
+  rollSpeed: 10
   cam: {fileID: 0}
   controller: {fileID: 3103159157184522312}
   isGround:
@@ -187,6 +188,9 @@ MonoBehaviour:
     m_Bits: 128
   groundCheck: {fileID: 3103159157454768704}
   anim: {fileID: 3103159155933477515}
+  isRoling: 0
+  spear: {fileID: 3181167267526178591}
+  trowing: 0
 --- !u!143 &3103159157184522312
 CharacterController:
   m_ObjectHideFlags: 0
@@ -218,6 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  stamina: 10000
 --- !u!1 &3103159157218451263
 GameObject:
   m_ObjectHideFlags: 0
