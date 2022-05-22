@@ -30,6 +30,8 @@ public class playerController : MonoBehaviour
     float waitingTimeS = 4f;
     float timePassedS = 0;
     bool cauntingtime;
+
+    int attackAnimN = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,11 +48,11 @@ public class playerController : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Horizontal") != 0 || Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") != 0 )
         {
-            if(GetComponent<stats>().stamina > 0)
+            if(GetComponent<stats>().stamina >= 2000)
             {
                 anim.SetTrigger("roll");
                 isRoling = true;
-                GetComponent<stats>().stamina -= 20;
+                GetComponent<stats>().stamina -= 2000;
                 restoringStamina = false;
                 cauntingtime = true;
                 timePassedS = 0;
@@ -136,11 +138,26 @@ public class playerController : MonoBehaviour
         }
 
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && GetComponent<stats>().stamina >= 1000)
         {
             isAttaking = true;
-            anim.SetTrigger("attack");
             StartCoroutine(enableWalking());
+            GetComponent<stats>().stamina -= 1000;
+            restoringStamina = false;
+            cauntingtime = true;
+            timePassedS = 0;
+
+            if (attackAnimN == 0)
+            {
+                anim.SetTrigger("attack");
+                attackAnimN = 1;
+            } else if( attackAnimN == 1)
+            {
+                anim.SetTrigger("attack2");
+                attackAnimN = 0;
+            }
+
+
         }
 
 
@@ -149,7 +166,7 @@ public class playerController : MonoBehaviour
 
     IEnumerator enableWalking()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.6f);
         isAttaking = false;
         GameObject.Find("spear:pCylinder3").GetComponent<spear>().hasDamaged = false;
     }

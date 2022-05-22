@@ -5158,7 +5158,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285299484}
-  m_LocalRotation: {x: 0.16747756, y: 0.000000018158705, z: -0.0000000030847447, w: 0.9858759}
+  m_LocalRotation: {x: 0.16747758, y: -0.000000029381392, z: 0.0000000049912208, w: 0.9858759}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -21930,6 +21930,10 @@ PrefabInstance:
     - target: {fileID: 3103159157184522311, guid: 06bbfaa2542931e48a6c38fb1ae3de97, type: 3}
       propertyPath: rollSpeed
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103159157184522313, guid: 06bbfaa2542931e48a6c38fb1ae3de97, type: 3}
+      propertyPath: stamina
+      value: 10000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06bbfaa2542931e48a6c38fb1ae3de97, type: 3}

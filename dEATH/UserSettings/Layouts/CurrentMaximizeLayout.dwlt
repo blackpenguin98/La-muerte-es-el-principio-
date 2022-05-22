@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 13236
+  controlID: 4672
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 13237
+  controlID: 4673
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 13238
+  controlID: 4674
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 283
     height: 561
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -227,7 +227,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5084ffffaef9ffffd2f9fffff8f9ffff04faffff1cfbffff
+      m_ExpandedIDs: 04faffff1cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 408
     height: 561
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -310,14 +310,14 @@ MonoBehaviour:
     - {fileID: 5478986582506101090, guid: c453e217e39ed814fb6651dbfb26bb85, type: 2}
     - {fileID: -854984876387004288, guid: b78ba1d04428ff8459bf9d9d43079572, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.45720142
+    - e00: 0.23789474
       e01: 0
       e02: 0
-      e03: -24.937317
+      e03: 3.1052628
       e10: 0
-      e11: 0.45720142
+      e11: 0.23789474
       e12: 0
-      e13: 145.48788
+      e13: 198.16315
       e20: 0
       e21: 0
       e22: 1
@@ -326,14 +326,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.39756644
+    - e00: 0.69534606
       e01: 0
       e02: 0
-      e03: 3.8848572
+      e03: -111.8483
       e10: 0
-      e11: 0.39756644
+      e11: 0.69534606
       e12: 0
-      e13: 212.26622
+      e13: 237.78177
       e20: 0
       e21: 0
       e22: 1
@@ -343,9 +343,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: b78ba1d04428ff8459bf9d9d43079572, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: c453e217e39ed814fb6651dbfb26bb85, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -854984876387004288, guid: b78ba1d04428ff8459bf9d9d43079572, type: 2}
+  - m_Target: {fileID: 5478986582506101090, guid: c453e217e39ed814fb6651dbfb26bb85, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -377,8 +377,8 @@ MonoBehaviour:
     y: 0
     width: 753
     height: 561
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -758,22 +758,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Player
+    - Assets/3d Models/Gladiator
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Player
+  - Assets/3d Models/Gladiator
   m_LastFoldersGridSize: -1
   m_LastProjectPath: M:\Unity\Projects\XP\Jams\Hades Jam\La-muerte-es-el-principio-\dEATH
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 43}
-    m_SelectedIDs: 68600000
-    m_LastClickedID: 24680
-    m_ExpandedIDs: 00000000206000002260000024600000266000002860000000ca9a3b
+    m_SelectedIDs: 3e600000
+    m_LastClickedID: 24638
+    m_ExpandedIDs: 0000000036600000386000003a6000003c6000003e60000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -801,7 +801,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000206000002260000024600000266000002860000000ca9a3b
+    m_ExpandedIDs: 0000000036600000386000003a6000003c6000003e60000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -826,10 +826,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ce5f0000
-    m_LastClickedInstanceID: 24526
+    m_SelectedInstanceIDs: 04faffff
+    m_LastClickedInstanceID: -1532
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300009a5a0000da5c0000ce5c00009e5e0000ac6300001a650000ea5e0000d4600000
+    m_ExpandedInstanceIDs: c62300009a5a0000da5c0000ce5c00009e5e0000ac6300001a650000ea5e0000d4600000fc600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -946,7 +946,7 @@ MonoBehaviour:
     m_CachedPref: 332
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 24526
+  m_LastInspectedObjectInstanceID: -1532
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
