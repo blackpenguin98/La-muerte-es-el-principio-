@@ -7,6 +7,7 @@ public class stats : MonoBehaviour
 
 
     public int health = 100;
+    public int stamina = 100;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,6 @@ public class stats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        stamina = Mathf.Clamp(stamina, 0, 100);
     }
 }

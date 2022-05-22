@@ -36,4 +36,11 @@ public class blood : MonoBehaviour
         Destroy(bloodI);
     }
 
+    //spear
+    public void deactivaRoll()
+    {
+        GameObject.Find("Player").GetComponent<playerController>().isRoling = false;
+    } 
+
+
 }

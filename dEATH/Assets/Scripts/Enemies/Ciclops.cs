@@ -102,7 +102,7 @@ public class Ciclops : MonoBehaviour
     {
         if (hasHit)
         {
-            player.transform.Translate(transform.GetChild(4).forward * Time.deltaTime * 1500);
+            player.transform.Translate(transform.GetChild(4).transform.worldToLocalMatrix.MultiplyVector(transform.forward) * Time.deltaTime * 1500);
             player.GetComponent<stats>().health -= damage;
         }
     }

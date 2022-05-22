@@ -9,6 +9,7 @@ public class playerController : MonoBehaviour
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
+    public float rollSpeed = 10;
 
     public Transform cam;
 
@@ -21,6 +22,14 @@ public class playerController : MonoBehaviour
     public Animator anim;
 
     bool isAttaking;
+    public bool isRoling;
+
+    public GameObject spear;
+
+    bool restoringStamina;
+    float waitingTimeS = 4f;
+    float timePassedS = 0;
+    bool cauntingtime;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +42,52 @@ public class playerController : MonoBehaviour
 
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
+
+
+        if(Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Horizontal") != 0 || Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") != 0 )
+        {
+            if(GetComponent<stats>().stamina > 0)
+            {
+                anim.SetTrigger("roll");
+                isRoling = true;
+                GetComponent<stats>().stamina -= 20;
+                restoringStamina = false;
+                cauntingtime = true;
+                timePassedS = 0;
+                //StartCoroutine(restoreStamina());
+            }
+            
+           
+        }
+
+        if (isRoling)
+        {
+           
+            transform.Translate(transform.worldToLocalMatrix.MultiplyVector(transform.forward) * Time.deltaTime * rollSpeed);
+            spear.SetActive(false);
+        }
+        else
+        {
+            spear.SetActive(true);
+        }
+
+        if (cauntingtime)
+        {
+            timePassedS += Time.deltaTime;
+        }
+
+        if (timePassedS >= waitingTimeS)
+        {
+            restoringStamina = true;
+            cauntingtime = false;
+            timePassedS = 0;
+        }
+
+
+        if (restoringStamina)
+        {
+            GetComponent<stats>().stamina += 1;
+        }
 
 
         if (isAttaking)
@@ -102,6 +157,14 @@ public class playerController : MonoBehaviour
     public void blood()
     {
         Debug.Log("blood");
+    }
+
+
+    IEnumerator restoreStamina()
+    {
+        yield return new WaitForSeconds(4f);
+        restoringStamina = true;
+
     }
 
 
