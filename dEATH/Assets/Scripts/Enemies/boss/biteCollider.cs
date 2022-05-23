@@ -20,7 +20,7 @@ public class biteCollider : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            GameObject.Find("cerberus").GetComponent<cerberus>().inBiteRange = true;
+            GameObject.Find("cerberus").GetComponent<cerberus>().inBiteRange = false;
         }
     }
 }

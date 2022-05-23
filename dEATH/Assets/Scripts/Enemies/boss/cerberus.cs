@@ -27,6 +27,10 @@ public class cerberus : MonoBehaviour
     public GameObject projectile;
     GameObject localProjectile;
 
+    public Transform[] enemies;
+    public Transform particlesSpawn;
+    public Transform spawnLoc;
+
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +47,7 @@ public class cerberus : MonoBehaviour
 
         if (actionsDone)
         {
-            actions = Random.Range(0, 4);
+            actions = Random.Range(0, 10);
             actionsLeft = Random.Range(3, 7);
             actionsDone = false;
         }
@@ -51,7 +55,7 @@ public class cerberus : MonoBehaviour
 
         if(actionsLeft > 0)
         {
-            if(actions == 0)
+            if(actions == 0 || actions == 1 || actions == 2 || actions == 3)
             {
                 if (!onceA)
                 {
@@ -60,7 +64,7 @@ public class cerberus : MonoBehaviour
                     StartCoroutine(timeBeforeAction());
                 }
             }
-            if (actions == 1)
+            if (actions == 4 || actions == 5 || actions == 6)
             {
                 if (!onceA)
                 {
@@ -69,7 +73,7 @@ public class cerberus : MonoBehaviour
                     StartCoroutine(timeBeforeAction());
                 }
             }
-            if (actions == 2)
+            if (actions == 7 || actions == 8)
             {
                 if (!onceA)
                 {
@@ -78,7 +82,7 @@ public class cerberus : MonoBehaviour
                     StartCoroutine(timeBeforeAction());
                 }
             }
-            if (actions == 3)
+            if (actions == 9)
             {
                 if (!onceA)
                 {
@@ -143,7 +147,7 @@ public class cerberus : MonoBehaviour
     {
         yield return new WaitForSeconds(timeBetweenAction);
         actionsLeft -= 1;
-        actions = Random.Range(0, 4);
+        actions = Random.Range(0, 10);
         onceA = false;
     }
 
@@ -181,5 +185,13 @@ public class cerberus : MonoBehaviour
         isFiring = true;
         
     }
+
+
+    public void spawnE()
+    {
+        Instantiate(particlesSpawn, spawnLoc.transform.position, Quaternion.identity);
+        Instantiate(enemies[Random.Range(0, enemies.Length)], spawnLoc.transform.position, Quaternion.identity);
+    }
+
 
 }
