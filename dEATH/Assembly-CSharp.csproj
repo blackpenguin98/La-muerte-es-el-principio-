@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Enemies\boss\biteCollider.cs" />
     <Compile Include="Assets\Scripts\Generation\openEntry.cs" />
     <Compile Include="Assets\Scripts\Generation\overlaping1.cs" />
+    <Compile Include="Assets\Scripts\Generation\NavMeshGen.cs" />
     <Compile Include="Assets\Scripts\UI\UI.cs" />
     <Compile Include="Assets\Scripts\Generation\InsideGenV2.cs" />
     <Compile Include="Assets\Scripts\Player\playerController.cs" />
@@ -71,7 +72,6 @@
     <Compile Include="Assets\Scripts\Player\blood.cs" />
     <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
-    <Compile Include="Assets\Scripts\Generation\NavMeshGen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -799,13 +799,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{799A97A1-F6FB-ACC6-A556-EF04438D15A1}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{4BFD1205-0D20-141E-8791-FDDAC920CDDA}</Project>
       <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{799A97A1-F6FB-ACC6-A556-EF04438D15A1}</Project>
+      <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

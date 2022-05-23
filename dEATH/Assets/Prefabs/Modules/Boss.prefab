@@ -254,6 +254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerberus
       objectReference: {fileID: 0}
+    - target: {fileID: 7928327645373956209, guid: 69131e4898afa14468e05a1dd819dd1e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69131e4898afa14468e05a1dd819dd1e, type: 3}
 --- !u!4 &1839270203594925785 stripped
