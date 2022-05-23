@@ -193,7 +193,7 @@ public class cerberus : MonoBehaviour
     public void spawnE()
     {
         Instantiate(particlesSpawn, spawnLoc.transform.position, Quaternion.identity);
-        Instantiate(enemies[Random.Range(0, enemies.Length)], spawnLoc.transform.position, Quaternion.identity);
+        Instantiate(enemies[Random.Range(0, enemies.Length)], spawnLoc.transform.position, spawnLoc.transform.rotation);
     }
 
 

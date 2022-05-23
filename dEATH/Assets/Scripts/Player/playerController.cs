@@ -94,7 +94,7 @@ public class playerController : MonoBehaviour
 
         if (restoringStamina)
         {
-            GetComponent<stats>().stamina += 1;
+            GetComponent<stats>().stamina += 8;
         }
 
 

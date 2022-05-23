@@ -19,7 +19,7 @@ public class stats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        stamina = Mathf.Clamp(stamina, 0, 10000);
+        stamina = Mathf.Clamp(stamina, 0, 20000);
         if(health <= 0)
         {
             die.SetActive(true);
