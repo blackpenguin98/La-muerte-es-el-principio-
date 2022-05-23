@@ -10,6 +10,7 @@ TagManager:
   - collider
   - enemy
   - boss
+  - floor
   layers:
   - Default
   - TransparentFX

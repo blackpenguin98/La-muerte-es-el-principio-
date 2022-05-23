@@ -22,6 +22,11 @@ public class cerberus : MonoBehaviour
 
     public int health = 10000;
 
+    public GameObject fireTarg;
+    public bool isFiring;
+    public GameObject projectile;
+    GameObject localProjectile;
+
 
     // Start is called before the first frame update
     void Start()
@@ -117,6 +122,20 @@ public class cerberus : MonoBehaviour
 
 
         }
+
+
+
+
+        if (isFiring)
+        {
+            localProjectile.transform.Translate(Vector3.down * Time.deltaTime * 30);
+        }
+
+
+
+
+
+
     }
 
 
@@ -146,5 +165,21 @@ public class cerberus : MonoBehaviour
     }
 
 
+    public void fire()
+    {
+        Vector3 pos = GameObject.Find("fireTarget").transform.position;
+        Vector3 pos2 = pos + new Vector3(0, 20, 0);
+        GameObject fireTP = Instantiate(fireTarg, pos, Quaternion.identity);
+        localProjectile = Instantiate(projectile, pos2, Quaternion.identity);
+        StartCoroutine(waitForInpact());
+    }
+
+
+    IEnumerator waitForInpact()
+    {
+        yield return new WaitForSeconds(.2f);
+        isFiring = true;
+        
+    }
 
 }

@@ -56,8 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enemies\boss\bossUI.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\cerberus.cs" />
     <Compile Include="Assets\Scripts\Player\spear.cs" />
+    <Compile Include="Assets\Scripts\Enemies\boss\biteCollider.cs" />
     <Compile Include="Assets\Scripts\Generation\openEntry.cs" />
     <Compile Include="Assets\Scripts\Generation\overlaping1.cs" />
     <Compile Include="Assets\Scripts\UI\UI.cs" />
@@ -66,8 +68,8 @@
     <Compile Include="Assets\Scripts\Player\stats.cs" />
     <Compile Include="Assets\Scripts\Player\blood.cs" />
     <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
-    <Compile Include="Assets\Scripts\Enemies\boss\biteCollider.cs" />
-    <Compile Include="Assets\Scripts\Enemies\boss\bossUI.cs" />
+    <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
+    <Compile Include="Assets\Scripts\Enemies\boss\destroyParticles.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -774,6 +776,24 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
