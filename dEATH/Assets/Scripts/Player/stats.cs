@@ -8,6 +8,8 @@ public class stats : MonoBehaviour
 
     public int health = 100;
     public int stamina = 10000;
+    public GameObject die;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +20,9 @@ public class stats : MonoBehaviour
     void Update()
     {
         stamina = Mathf.Clamp(stamina, 0, 10000);
+        if(health <= 0)
+        {
+            die.SetActive(true);
+        }
     }
 }

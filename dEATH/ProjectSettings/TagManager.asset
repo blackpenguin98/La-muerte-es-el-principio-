@@ -9,6 +9,7 @@ TagManager:
   - enter
   - collider
   - enemy
+  - boss
   layers:
   - Default
   - TransparentFX

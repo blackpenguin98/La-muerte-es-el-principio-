@@ -12,8 +12,17 @@ public class spear : MonoBehaviour
     {
         if(other.tag == "enemy")
         {
+            Debug.Log("xd");
             other.GetComponent<Ciclops>().health -= damage;
             hasDamaged = true;
+        }
+
+        if(other.tag == "boss")
+        {
+            Debug.Log("lol");
+            GameObject.Find("cerberus").GetComponent<cerberus>().health -= damage;
+            hasDamaged = true;
+
         }
 
     }
