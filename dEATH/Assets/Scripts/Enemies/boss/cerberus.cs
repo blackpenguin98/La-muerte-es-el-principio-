@@ -31,6 +31,8 @@ public class cerberus : MonoBehaviour
     public Transform particlesSpawn;
     public Transform spawnLoc;
 
+    public bool isActive;
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +40,7 @@ public class cerberus : MonoBehaviour
         anim = GetComponent<Animator>();
         transform.position = originalPos.position;
         headCollider.SetActive(false);
+        actionsLeft = 1;
     }
 
     // Update is called once per frame
@@ -45,7 +48,7 @@ public class cerberus : MonoBehaviour
     {
 
 
-        if (actionsDone)
+        if (actionsDone && isActive)
         {
             actions = Random.Range(0, 10);
             actionsLeft = Random.Range(3, 7);
@@ -53,7 +56,7 @@ public class cerberus : MonoBehaviour
         }
 
 
-        if(actionsLeft > 0)
+        if(actionsLeft > 0 && isActive)
         {
             if(actions == 0 || actions == 1 || actions == 2 || actions == 3)
             {

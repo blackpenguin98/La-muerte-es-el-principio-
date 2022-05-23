@@ -116,7 +116,7 @@ MonoBehaviour:
   sizeY: 5
   layer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 4160
   id: 0
 --- !u!1 &3208657725242445042
 GameObject:
