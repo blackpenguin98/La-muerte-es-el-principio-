@@ -60,8 +60,10 @@
     <Compile Include="Assets\Scripts\Enemies\boss\bossUI.cs" />
     <Compile Include="Assets\Scripts\Enemies\hand\hand.cs" />
     <Compile Include="Assets\Scripts\Enemies\hand\handPunchCol.cs" />
+    <Compile Include="Assets\NastyWizard_CelSobel\Demo\ROTATE.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\destroyParticles.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\cerberus.cs" />
+    <Compile Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Scripts\PostProcessing_Sobel.cs" />
     <Compile Include="Assets\Scripts\Player\spear.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\bossActivator.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\biteCollider.cs" />
@@ -77,8 +79,6 @@
     <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
     <Compile Include="Assets\Scripts\Cinematicas\Script.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
-    <Compile Include="Assets\NastyWizard_CelSobel\Demo\ROTATE.cs" />
-    <Compile Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Scripts\PostProcessing_Sobel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
