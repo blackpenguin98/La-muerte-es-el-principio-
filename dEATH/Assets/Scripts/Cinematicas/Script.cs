@@ -61,6 +61,7 @@ public class Script : MonoBehaviour
             {
                 once2 = true;
                 gladiator.SetTrigger("roll");
+                gladiator.SetTrigger("roll2");
                 cam.transform.position = new Vector3(-11.8703f, 19.71464f, 33.76282f);
                 cam.transform.LookAt(gladiator.gameObject.transform.position + new Vector3(0, 0, 0));
             }
