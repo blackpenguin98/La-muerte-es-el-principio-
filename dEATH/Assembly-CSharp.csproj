@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\boss\bossUI.cs" />
+    <Compile Include="Assets\Scripts\Enemies\hand\hand.cs" />
+    <Compile Include="Assets\Scripts\Enemies\hand\handPunchCol.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\destroyParticles.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\cerberus.cs" />
     <Compile Include="Assets\Scripts\Player\spear.cs" />
@@ -72,8 +74,6 @@
     <Compile Include="Assets\Scripts\Player\blood.cs" />
     <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
-    <Compile Include="Assets\Scripts\Enemies\hand\handPunchCol.cs" />
-    <Compile Include="Assets\Scripts\Enemies\hand\hand.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
