@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Outline by The Developer\Outline\O_CustomImageEffect.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\bossUI.cs" />
     <Compile Include="Assets\Scripts\Enemies\hand\hand.cs" />
     <Compile Include="Assets\Scripts\Enemies\hand\handPunchCol.cs" />
@@ -69,12 +70,27 @@
     <Compile Include="Assets\Scripts\Generation\NavMeshGen.cs" />
     <Compile Include="Assets\Scripts\UI\UI.cs" />
     <Compile Include="Assets\Scripts\Generation\InsideGenV2.cs" />
+    <Compile Include="Assets\Outline by The Developer\Example Scene\Example Scene\O_ReviewCam.cs" />
     <Compile Include="Assets\Scripts\Player\playerController.cs" />
     <Compile Include="Assets\Scripts\Player\stats.cs" />
     <Compile Include="Assets\Scripts\Player\blood.cs" />
     <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
     <Compile Include="Assets\Scripts\Cinematicas\Script.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
+    <Compile Include="Assets\NastyWizard_CelSobel\Demo\ROTATE.cs" />
+    <Compile Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Scripts\PostProcessing_Sobel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
+    <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\SobelOutline.shader" />
+    <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShadingTerrain.shader" />
+    <None Include="Assets\Outline by The Developer\Outline\SS Depth Based Outline.shader" />
+    <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading - Transparent.shader" />
+    <None Include="Assets\Outline by The Developer\Outline\SS All-in-One Outline.shader" />
+    <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShadingIncludes.cginc" />
+    <None Include="Assets\Outline by The Developer\Outline\SS Texture Based Outline.shader" />
+    <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\Post\PostFunctions.cginc" />
+    <None Include="Assets\Outline by The Developer\Outline\SS Linear 01 Depth Outline.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
