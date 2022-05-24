@@ -73,8 +73,8 @@
     <Compile Include="Assets\Scripts\Player\stats.cs" />
     <Compile Include="Assets\Scripts\Player\blood.cs" />
     <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
-    <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
     <Compile Include="Assets\Scripts\Cinematicas\Script.cs" />
+    <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
