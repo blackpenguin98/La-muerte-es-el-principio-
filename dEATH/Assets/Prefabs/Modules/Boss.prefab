@@ -170,6 +170,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8903606331015886517}
     m_Modifications:
+    - target: {fileID: 7117510596380945399, guid: 69131e4898afa14468e05a1dd819dd1e, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     - target: {fileID: 7928327644889963781, guid: 69131e4898afa14468e05a1dd819dd1e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
