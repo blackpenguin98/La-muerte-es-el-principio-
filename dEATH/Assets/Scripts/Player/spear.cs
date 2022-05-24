@@ -25,5 +25,13 @@ public class spear : MonoBehaviour
 
         }
 
+        if (other.tag == "hand")
+        {
+           
+            other.GetComponent<hand>().health -= damage;
+            hasDamaged = true;
+
+        }
+
     }
 }
