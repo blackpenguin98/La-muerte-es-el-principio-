@@ -141,7 +141,7 @@ public class cerberus : MonoBehaviour
 
 
 
-        if(isActive && GameObject.Find("Player").GetComponent<stats>().health <= 0 || health <= 0)
+        if(isActive && GameObject.Find("Player").GetComponent<stats>().health <= 0)
         {
             SceneManager.LoadScene(2);
         }
@@ -199,6 +199,11 @@ public class cerberus : MonoBehaviour
     {
         Instantiate(particlesSpawn, spawnLoc.transform.position, spawnLoc.rotation);
         Instantiate(enemies[Random.Range(0, enemies.Length)], spawnLoc.transform.position, spawnLoc.rotation);
+    }
+
+    public void fixB()
+    {
+        Debug.Log("lol");
     }
 
 

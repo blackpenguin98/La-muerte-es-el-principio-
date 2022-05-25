@@ -96,7 +96,7 @@ public class Script : MonoBehaviour
     }
 
 
-    public void bite()
+    public void bite2()
     {
         cam.transform.position = new Vector3(18.19648f, 11.68047f, 20.87338f);
         cam.transform.LookAt(cerberus.gameObject.transform.position + new Vector3(0, 0, 0));

@@ -382,6 +382,7 @@
 "Assets/Scripts/Player/playerController.cs"
 "Assets/Scripts/Player/spear.cs"
 "Assets/Scripts/Player/stats.cs"
+"Assets/Scripts/UI/Menu/menuMain.cs"
 "Assets/Scripts/UI/UI.cs"
 -langversion:9.0
 
