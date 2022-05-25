@@ -515,6 +515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rooms:
   - {fileID: 2595122920087235900, guid: 4f63b40edee667249bac8a00c8c17bf9, type: 3}
+  - {fileID: 905612526021812414, guid: 81a2d68faea6a054a8d8494df4154778, type: 3}
   - {fileID: 905612526021812414, guid: e37b8d5f44f6bb2439dc47fc6e1704a7, type: 3}
   - {fileID: 905612526021812414, guid: a9963d6fc395bcc4080fdfb57b4e938b, type: 3}
   - {fileID: 2595122920087235900, guid: 7573601273903b74783c78736ad6c43d, type: 3}
@@ -4522,7 +4523,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   debugging: 1
-  roomsToPlace: 6
+  roomsToPlace: 20
   seed: 456545
   roomsPlacedActually: 0
   missingRooms: 0
@@ -4806,11 +4807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1212702539769943013, guid: 86328dfc6feae8d4c9773d138f289102, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000014690701
+      value: 3.060112e-15
       objectReference: {fileID: 0}
     - target: {fileID: 1212702539769943013, guid: 86328dfc6feae8d4c9773d138f289102, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000024956106
+      value: -2.3264705e-16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86328dfc6feae8d4c9773d138f289102, type: 3}
