@@ -34,6 +34,8 @@ public class cerberus : MonoBehaviour
 
     public bool isActive;
 
+    public AudioSource bark, bark1, bark2, gruñido;
+
 
     // Start is called before the first frame update
     void Start()
@@ -66,6 +68,7 @@ public class cerberus : MonoBehaviour
                     onceA = true;
                     anim.SetTrigger("biting");
                     StartCoroutine(timeBeforeAction());
+                    bark.Play();
                 }
             }
             if (actions == 4 || actions == 5 || actions == 6)
@@ -75,6 +78,7 @@ public class cerberus : MonoBehaviour
                     onceA = true;
                     anim.SetTrigger("Fire");
                     StartCoroutine(timeBeforeAction());
+                    bark1.Play();
                 }
             }
             if (actions == 7 || actions == 8)
@@ -84,6 +88,7 @@ public class cerberus : MonoBehaviour
                     onceA = true;
                     anim.SetTrigger("summon");
                     StartCoroutine(timeBeforeAction());
+                    bark2.Play();
                 }
             }
             if (actions == 9)
@@ -92,6 +97,7 @@ public class cerberus : MonoBehaviour
                 {
                     onceA = true;
                     StartCoroutine(timeBeforeAction());
+                    //gruñido.Play();
                 }
             }
         }
@@ -206,5 +212,13 @@ public class cerberus : MonoBehaviour
         Debug.Log("lol");
     }
 
+
+    public void gruñir()
+    {
+        if (isActive)
+        {
+            gruñido.Play();
+        }
+    }
 
 }

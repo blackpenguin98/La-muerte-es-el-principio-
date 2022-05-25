@@ -37,6 +37,8 @@ public class playerController : MonoBehaviour
 
     bool onceT;
 
+    public AudioSource spearhit, spearhit2;
+
     Vector3 tDirection;
     // Start is called before the first frame update
     void Start()
@@ -157,8 +159,10 @@ public class playerController : MonoBehaviour
             {
                 anim.SetTrigger("attack");
                 attackAnimN = 1;
+                //spearhit.Play();
             } else if( attackAnimN == 1)
             {
+                //spearhit2.Play();
                 anim.SetTrigger("attack2");
                 attackAnimN = 0;
             }

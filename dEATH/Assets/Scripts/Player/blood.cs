@@ -8,6 +8,10 @@ public class blood : MonoBehaviour
     public GameObject bloodP;
     public Transform t;
     GameObject bloodI;
+
+    public AudioSource spearHit1, spearhit2;
+
+    public AudioSource[] hitted;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +28,7 @@ public class blood : MonoBehaviour
     {
         if (GameObject.Find("spear:pCylinder3").GetComponent<spear>().hasDamaged)
         {
+            hitted[Random.Range(0, hitted.Length)].Play();
             bloodI = Instantiate(bloodP, t.transform.position, t.transform.rotation);
         }
        
@@ -41,6 +46,17 @@ public class blood : MonoBehaviour
     {
         GameObject.Find("Player").GetComponent<playerController>().isRoling = false;
     } 
+
+
+    public void hit1()
+    {
+        spearHit1.Play();
+    }
+
+    public void hit2()
+    {
+        spearhit2.Play();
+    }
 
 
 }
