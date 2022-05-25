@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class cerberus : MonoBehaviour
 {
@@ -140,6 +141,10 @@ public class cerberus : MonoBehaviour
 
 
 
+        if(isActive && GameObject.Find("Player").GetComponent<stats>().health <= 0 || health <= 0)
+        {
+            SceneManager.LoadScene(2);
+        }
 
 
 
