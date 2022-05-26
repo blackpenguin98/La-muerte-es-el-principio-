@@ -59,6 +59,7 @@
     <Compile Include="Assets\Outline by The Developer\Outline\O_CustomImageEffect.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\bossUI.cs" />
     <Compile Include="Assets\Scripts\Enemies\hand\hand.cs" />
+    <Compile Include="Assets\Scripts\Generation\EnemieChecker.cs" />
     <Compile Include="Assets\Scripts\Enemies\hand\handPunchCol.cs" />
     <Compile Include="Assets\NastyWizard_CelSobel\Demo\ROTATE.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\destroyParticles.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Scripts\Enemies\boss\biteCollider.cs" />
     <Compile Include="Assets\Scripts\Generation\openEntry.cs" />
     <Compile Include="Assets\Scripts\Generation\overlaping1.cs" />
+    <Compile Include="Assets\Scripts\Generation\EnemiesHanlder.cs" />
     <Compile Include="Assets\Scripts\Generation\NavMeshGen.cs" />
     <Compile Include="Assets\Scripts\UI\UI.cs" />
     <Compile Include="Assets\Scripts\Generation\InsideGenV2.cs" />
@@ -81,8 +83,6 @@
     <Compile Include="Assets\Scripts\Cinematicas\Script.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
     <Compile Include="Assets\Scripts\Bote.cs" />
-    <Compile Include="Assets\Scripts\Generation\EnemieChecker.cs" />
-    <Compile Include="Assets\Scripts\Generation\EnemiesHanlder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
