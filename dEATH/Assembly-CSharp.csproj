@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Enemies\Ciclops.cs" />
     <Compile Include="Assets\Scripts\Cinematicas\Script.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
+    <Compile Include="Assets\Scripts\Bote.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
