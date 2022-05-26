@@ -33,8 +33,9 @@ public class hand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if(health <= 0)
+        player = GameObject.Find("Player");
+
+        if (health <= 0)
         {
             Destroy(gameObject);
         }

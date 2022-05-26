@@ -4628,7 +4628,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   debugging: 0
-  roomsToPlace: 2
+  roomsToPlace: 10
   seed: 95959
   roomsPlacedActually: 0
   missingRooms: 0
@@ -5121,15 +5121,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1212702539769943013, guid: 86328dfc6feae8d4c9773d138f289102, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.16747747
+      value: 0.16747746
       objectReference: {fileID: 0}
     - target: {fileID: 1212702539769943013, guid: 86328dfc6feae8d4c9773d138f289102, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000014690696
+      value: 1.7512674e-15
       objectReference: {fileID: 0}
     - target: {fileID: 1212702539769943013, guid: 86328dfc6feae8d4c9773d138f289102, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000024956088
+      value: -2.9749973e-16
       objectReference: {fileID: 0}
     - target: {fileID: 1212702540060617915, guid: 86328dfc6feae8d4c9773d138f289102, type: 3}
       propertyPath: m_LocalPosition.y

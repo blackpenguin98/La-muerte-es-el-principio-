@@ -375,6 +375,8 @@
 "Assets/Scripts/Enemies/Ciclops.cs"
 "Assets/Scripts/Enemies/hand/hand.cs"
 "Assets/Scripts/Enemies/hand/handPunchCol.cs"
+"Assets/Scripts/Generation/EnemieChecker.cs"
+"Assets/Scripts/Generation/EnemiesHanlder.cs"
 "Assets/Scripts/Generation/InsideGenV2.cs"
 "Assets/Scripts/Generation/NavMeshGen.cs"
 "Assets/Scripts/Generation/openEntry.cs"

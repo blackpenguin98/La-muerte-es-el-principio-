@@ -81,6 +81,8 @@
     <Compile Include="Assets\Scripts\Cinematicas\Script.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
     <Compile Include="Assets\Scripts\Bote.cs" />
+    <Compile Include="Assets\Scripts\Generation\EnemieChecker.cs" />
+    <Compile Include="Assets\Scripts\Generation\EnemiesHanlder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />

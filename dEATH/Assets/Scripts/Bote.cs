@@ -41,6 +41,7 @@ public class Bote : MonoBehaviour
     {
         Player.SetActive(true);
         CPrincipal.Priority = 20;
+        Destroy(gameObject);
     }
 
     IEnumerator wait()

@@ -2148,7 +2148,7 @@ GameObject:
   - component: {fileID: 1533391068}
   - component: {fileID: 8042247015328989381}
   - component: {fileID: 1533391071}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ciclope
   m_TagString: enemy
   m_Icon: {fileID: 0}

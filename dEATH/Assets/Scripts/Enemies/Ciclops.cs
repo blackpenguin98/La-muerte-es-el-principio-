@@ -28,7 +28,7 @@ public class Ciclops : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        
         animator = GetComponent<Animator>();
         controller = GetComponent<NavMeshAgent>();
         timePassed = Mathf.Infinity;
@@ -37,8 +37,9 @@ public class Ciclops : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
 
-        if(health > 0) { 
+        if (health > 0) { 
         
 
         if(Vector3.Distance(transform.position, player.transform.position) <= persueRange)
