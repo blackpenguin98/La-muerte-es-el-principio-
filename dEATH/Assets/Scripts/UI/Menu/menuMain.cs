@@ -30,7 +30,7 @@ public class menuMain : MonoBehaviour
     IEnumerator loadingS()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(3);
     }
 
 

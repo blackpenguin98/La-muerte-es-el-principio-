@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Script : MonoBehaviour
 {
@@ -90,6 +91,12 @@ public class Script : MonoBehaviour
                 cerberus.SetTrigger("biting");
             }
 
+        }
+
+
+        if(time >= 11)
+        {
+            SceneManager.LoadSceneAsync(2);
         }
 
 

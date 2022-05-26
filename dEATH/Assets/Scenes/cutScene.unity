@@ -2630,6 +2630,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cerberus
       objectReference: {fileID: 0}
+    - target: {fileID: 3472715468727802701, guid: 9fa0e21338b532141b2361b8941c95dc, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775978224172164585, guid: 9fa0e21338b532141b2361b8941c95dc, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772117918969752422, guid: 9fa0e21338b532141b2361b8941c95dc, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8058535787325674439, guid: 9fa0e21338b532141b2361b8941c95dc, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 497862937744065092, guid: 9fa0e21338b532141b2361b8941c95dc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9fa0e21338b532141b2361b8941c95dc, type: 3}

@@ -149,7 +149,16 @@ public class cerberus : MonoBehaviour
 
         if(isActive && GameObject.Find("Player").GetComponent<stats>().health <= 0)
         {
-            SceneManager.LoadScene(2);
+            if(GameObject.Find("BossStart") != null)
+            {
+                SceneManager.LoadScene(1);
+            }
+            else
+            {
+                SceneManager.LoadScene(2);
+            }
+
+            
         }
 
 

@@ -29,6 +29,8 @@ public class InsideGenV2 : MonoBehaviour
             //seed = GameManager.instance.insideSeedEnemy;
         }
 
+        seed = Random.Range(0, 200000000);
+
 
         Random.InitState(seed);
 
