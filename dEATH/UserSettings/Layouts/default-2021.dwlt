@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 106
+  controlID: 19
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -404,18 +404,18 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1cfbffff
+      m_ExpandedIDs: b4c4fdff02c5fdff1ecbfdff02cdfdffcccffdff8cd1fdff6c5afeffac5afefff85efeffdc60feff9e63feff5065feff0867feff5a67feff766dfeff5a6ffeff2472feffe473feffd0d0feff20d1feff34d7feff18d9feffe2dbfeffa2ddfeff6a19ffffb819ffffd41fffffb821ffff8224ffff4226ffff1cfbffffce64000090d40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Water
-        m_OriginalName: Water
+        m_Name: Player
+        m_OriginalName: Player
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 36888
+        m_UserData: -1260
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -653,9 +653,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -14.633393, y: -31.371304, z: -754.20337}
+    m_Target: {x: -20.380754, y: -28.48146, z: -1104.371}
     speed: 2
-    m_Value: {x: -14.633393, y: -31.371304, z: -754.20337}
+    m_Value: {x: -20.380754, y: -28.48146, z: -1104.371}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -702,13 +702,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2531819, y: 0.4189319, z: -0.12304926, w: 0.8634624}
+    m_Target: {x: 0.012072293, y: 0.98773545, z: -0.12092835, w: 0.099639975}
     speed: 2
-    m_Value: {x: 0.2531422, y: 0.41886625, z: -0.12302997, w: 0.863327}
+    m_Value: {x: 0.012070369, y: 0.98757803, z: -0.12090908, w: 0.0996241}
   m_Size:
-    m_Target: 434.30185
+    m_Target: 16.690622
     speed: 2
-    m_Value: 415.59985
+    m_Value: 16.690622
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -753,9 +753,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 496
+    x: 250
     y: 73
-    width: 419
+    width: 1165
     height: 545
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1745,21 +1745,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Modules
+    - Assets/Scripts/Player
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Modules
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: -1
   m_LastProjectPath: M:\Unity\Projects\XP\Jams\Hades Jam\La-muerte-es-el-principio-\dEATH
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 480}
-    m_SelectedIDs: 3e830000
-    m_LastClickedID: 33598
+    scrollPos: {x: 0, y: 556}
+    m_SelectedIDs: 4c830000
+    m_LastClickedID: 33612
     m_ExpandedIDs: 000000009a8100009c8100009e810000a0810000a2810000a4810000a6810000a8810000aa810000ac810000ae81000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1815,7 +1815,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300009a5a0000da5c0000ce5c00009e5e0000ac6300001a650000ea5e0000d4600000fc600000be7d0000a4870000966f0000d452010048680000266800000267000082810000266d0000a2730000ca730000306a0000347c000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

@@ -39,19 +39,31 @@ public class playerController : MonoBehaviour
 
     public AudioSource spearhit, spearhit2;
 
+    Vector3 pos;
+
     Vector3 tDirection;
+
+    public float waitingTimeAttack, waitingTimeRoll;
+    float timePassedAttack, timePassedRoll;
+
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        pos = transform.position;
+        timePassedRoll = Mathf.Infinity;
+        timePassedAttack = Mathf.Infinity;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if(transform.position.y <= -23)
+        timePassedRoll += Time.deltaTime;
+        timePassedAttack += Time.deltaTime;
+
+        if (transform.position.y <= pos.y - 6) 
         {
             GetComponent<stats>().health = 0;
         }
@@ -62,7 +74,7 @@ public class playerController : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Horizontal") != 0 && !trowing || Input.GetKeyDown(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") != 0 && !trowing )
         {
-            if(GetComponent<stats>().stamina >= 2000)
+            if(GetComponent<stats>().stamina >= 2000 && timePassedRoll >= waitingTimeRoll)
             {
                 anim.SetTrigger("roll");
                 isRoling = true;
@@ -70,6 +82,7 @@ public class playerController : MonoBehaviour
                 restoringStamina = false;
                 cauntingtime = true;
                 timePassedS = 0;
+                timePassedRoll = 0;
                 //StartCoroutine(restoreStamina());
             }
             
@@ -152,7 +165,7 @@ public class playerController : MonoBehaviour
         }
 
 
-        if (Input.GetButtonDown("Fire1") && GetComponent<stats>().stamina >= 1000 && !trowing)
+        if (Input.GetButtonDown("Fire1") && GetComponent<stats>().stamina >= 1000 && !trowing && timePassedAttack >= waitingTimeAttack)
         {
             isAttaking = true;
             StartCoroutine(enableWalking());
@@ -160,6 +173,7 @@ public class playerController : MonoBehaviour
             restoringStamina = false;
             cauntingtime = true;
             timePassedS = 0;
+            timePassedAttack = 0;
 
             if (attackAnimN == 0)
             {

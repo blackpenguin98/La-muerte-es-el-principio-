@@ -225,6 +225,8 @@ MonoBehaviour:
   trowing: 0
   spearhit: {fileID: 0}
   spearhit2: {fileID: 0}
+  waitingTimeAttack: 1
+  waitingTimeRoll: 1.2
 --- !u!143 &3103159157184522312
 CharacterController:
   m_ObjectHideFlags: 0
