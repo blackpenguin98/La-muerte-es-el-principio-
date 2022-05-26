@@ -377,6 +377,7 @@
 "Assets/Scripts/Enemies/hand/handPunchCol.cs"
 "Assets/Scripts/Generation/EnemieChecker.cs"
 "Assets/Scripts/Generation/EnemiesHanlder.cs"
+"Assets/Scripts/Generation/enemieSpawner.cs"
 "Assets/Scripts/Generation/InsideGenV2.cs"
 "Assets/Scripts/Generation/NavMeshGen.cs"
 "Assets/Scripts/Generation/openEntry.cs"
