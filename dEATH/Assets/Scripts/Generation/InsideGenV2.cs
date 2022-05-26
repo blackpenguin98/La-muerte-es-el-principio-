@@ -18,6 +18,8 @@ public class InsideGenV2 : MonoBehaviour
 
     public int missingRooms = 0;
 
+    public int Generated2Rooms = 0;
+
     bool destroyed = false;
 
     List<GameObject> entries = new List<GameObject>();

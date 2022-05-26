@@ -2237,7 +2237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d674fe28cc0b99a4898b42ffcc7169a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 60
   damage: 40
   persueRange: 20.31
   attackingRange: 4.66

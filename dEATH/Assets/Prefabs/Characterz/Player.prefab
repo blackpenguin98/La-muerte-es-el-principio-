@@ -212,7 +212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   turnSmoothTime: 0.1
-  rollSpeed: 10
+  rollSpeed: 15
   cam: {fileID: 0}
   controller: {fileID: 3103159157184522312}
   isGround:
@@ -223,6 +223,8 @@ MonoBehaviour:
   isRoling: 0
   spear: {fileID: 3181167267526178591}
   trowing: 0
+  spearhit: {fileID: 0}
+  spearhit2: {fileID: 0}
 --- !u!143 &3103159157184522312
 CharacterController:
   m_ObjectHideFlags: 0
@@ -533,6 +535,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bloodP: {fileID: 6492958162995912811, guid: 8ce48f737d06e97409a1711d074dc177, type: 3}
   t: {fileID: 3103159157332248589}
+  spearHit1: {fileID: 0}
+  spearhit2: {fileID: 0}
+  hitted:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &3181167267526178591 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 519431325620486607, guid: 7435406c24991e040b33426b3ebe1b0e, type: 3}
