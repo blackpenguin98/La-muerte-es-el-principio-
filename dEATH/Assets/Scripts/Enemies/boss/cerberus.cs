@@ -36,6 +36,8 @@ public class cerberus : MonoBehaviour
 
     public AudioSource bark, bark1, bark2, gruñido;
 
+    public GameObject canvas;
+
 
     // Start is called before the first frame update
     void Start()
@@ -44,11 +46,16 @@ public class cerberus : MonoBehaviour
         transform.position = originalPos.position;
         headCollider.SetActive(false);
         actionsLeft = 1;
+        canvas.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (isActive)
+        {
+            canvas.SetActive(true);
+        }
 
 
         if (actionsDone && isActive)
@@ -161,6 +168,13 @@ public class cerberus : MonoBehaviour
             
         }
 
+        if(GameObject.Find("Player").GetComponent<stats>().health <= 0)
+        {
+
+            StartCoroutine(waitForRestart());
+
+        }
+
 
 
     }
@@ -228,6 +242,12 @@ public class cerberus : MonoBehaviour
         {
             gruñido.Play();
         }
+    }
+
+    IEnumerator waitForRestart()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(2);
     }
 
 }

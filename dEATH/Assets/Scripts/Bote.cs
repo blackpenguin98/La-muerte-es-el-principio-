@@ -41,13 +41,14 @@ public class Bote : MonoBehaviour
     {
         Player.SetActive(true);
         CPrincipal.Priority = 20;
+        canvas1.SetActive(true);
         Destroy(gameObject);
     }
 
     IEnumerator wait()
     {
         yield return new WaitForSeconds(4);
-        canvas1.SetActive(true);
+        
         canvas2.SetActive(false);
 
     }

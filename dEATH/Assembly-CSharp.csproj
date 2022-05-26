@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Generation\EnemieChecker.cs" />
     <Compile Include="Assets\Scripts\Enemies\hand\handPunchCol.cs" />
     <Compile Include="Assets\NastyWizard_CelSobel\Demo\ROTATE.cs" />
+    <Compile Include="Assets\Scripts\Generation\enemieSpawner.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\destroyParticles.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\cerberus.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\menuMain.cs" />
@@ -83,7 +84,6 @@
     <Compile Include="Assets\Scripts\Cinematicas\Script.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
     <Compile Include="Assets\Scripts\Bote.cs" />
-    <Compile Include="Assets\Scripts\Generation\enemieSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />

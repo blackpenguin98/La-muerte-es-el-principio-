@@ -50,6 +50,11 @@ public class playerController : MonoBehaviour
     void Update()
     {
 
+        if(transform.position.y <= -23)
+        {
+            GetComponent<stats>().health = 0;
+        }
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
