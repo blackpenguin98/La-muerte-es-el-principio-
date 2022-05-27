@@ -12,6 +12,8 @@ public class blood : MonoBehaviour
     public AudioSource spearHit1, spearhit2;
 
     public AudioSource[] hitted;
+    public AudioSource[] steps;
+    public AudioSource[] roll;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +58,16 @@ public class blood : MonoBehaviour
     public void hit2()
     {
         spearhit2.Play();
+    }
+
+    public void step()
+    {
+        steps[Random.Range(0, steps.Length)].Play();
+    }
+
+    public void rollS()
+    {
+        roll[Random.Range(0, roll.Length)].Play();
     }
 
 

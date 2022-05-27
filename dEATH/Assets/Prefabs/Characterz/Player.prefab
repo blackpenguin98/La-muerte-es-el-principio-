@@ -544,6 +544,15 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  steps:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  roll:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &3181167267526178591 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 519431325620486607, guid: 7435406c24991e040b33426b3ebe1b0e, type: 3}

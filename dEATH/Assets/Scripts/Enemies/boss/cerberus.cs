@@ -34,7 +34,7 @@ public class cerberus : MonoBehaviour
 
     public bool isActive;
 
-    public AudioSource bark, bark1, bark2, gruñido;
+    public AudioSource bark, bark1, bark2, gruñido, biteSS, spell;
 
     public GameObject canvas;
 
@@ -248,6 +248,17 @@ public class cerberus : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(2);
+    }
+
+
+    public void biteSSS()
+    {
+        biteSS.Play();
+    }
+
+    public void spellS()
+    {
+        spell.Play();
     }
 
 }
