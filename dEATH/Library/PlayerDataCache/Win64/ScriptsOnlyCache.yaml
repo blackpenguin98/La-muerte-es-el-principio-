@@ -41,6 +41,8 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     NavMeshComponents.dll:
     - UnityEngine.AI.NavMeshSurface
+    NavMeshComponentsEditor.dll:
+    - UnityEditor.AI.NavMeshAssetManager
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -72,7 +74,9 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.Graphing.GraphObject
     - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
+    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     - UnityEditor.ShaderGraph.SubGraphAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph

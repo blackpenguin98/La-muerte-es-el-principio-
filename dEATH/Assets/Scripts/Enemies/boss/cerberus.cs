@@ -168,6 +168,12 @@ public class cerberus : MonoBehaviour
             
         }
 
+        if(health <= 0)
+        {
+            SceneManager.LoadScene(1);
+        }
+
+
         if(GameObject.Find("Player").GetComponent<stats>().health <= 0)
         {
 
