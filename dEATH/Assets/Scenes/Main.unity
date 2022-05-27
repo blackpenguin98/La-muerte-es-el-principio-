@@ -4927,8 +4927,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 88b7f888297b8aa4b8d51ed7de8be4c8, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.658
+  m_PlayOnAwake: 0
+  m_Volume: 0.9
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5267,11 +5267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2121190202479089653, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000009910231
+      value: -0.000000009910231
       objectReference: {fileID: 0}
     - target: {fileID: 2121190202479089653, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000010739424
+      value: 0.0000000010739424
       objectReference: {fileID: 0}
     - target: {fileID: 5101861429713309564, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5299,19 +5299,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7804035023389705585, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000047096083
+      value: -0.000000020557557
       objectReference: {fileID: 0}
     - target: {fileID: 7804035023389705585, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 8.0005663e-10
+      value: 0.0000000034922678
       objectReference: {fileID: 0}
     - target: {fileID: 7804035024471754106, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000085064835
+      value: -0.0000000085064835
       objectReference: {fileID: 0}
     - target: {fileID: 7804035024471754106, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000012863307
+      value: 0.0000000012863307
       objectReference: {fileID: 0}
     - target: {fileID: 8978455861025151665, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_Volume

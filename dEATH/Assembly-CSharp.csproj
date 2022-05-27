@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Enemies\hand\handPunchCol.cs" />
     <Compile Include="Assets\NastyWizard_CelSobel\Demo\ROTATE.cs" />
     <Compile Include="Assets\Scripts\Generation\enemieSpawner.cs" />
+    <Compile Include="Assets\Scripts\Enemies\zombie\zombie.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\destroyParticles.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\cerberus.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\menuMain.cs" />
@@ -73,9 +74,11 @@
     <Compile Include="Assets\Scripts\Generation\openEntry.cs" />
     <Compile Include="Assets\Scripts\Generation\overlaping1.cs" />
     <Compile Include="Assets\Scripts\Generation\EnemiesHanlder.cs" />
+    <Compile Include="Assets\Scripts\Chest.cs" />
     <Compile Include="Assets\Scripts\Generation\NavMeshGen.cs" />
     <Compile Include="Assets\Scripts\UI\UI.cs" />
     <Compile Include="Assets\Scripts\Generation\InsideGenV2.cs" />
+    <Compile Include="Assets\Scripts\Enemies\zombie\arrow.cs" />
     <Compile Include="Assets\Outline by The Developer\Example Scene\Example Scene\O_ReviewCam.cs" />
     <Compile Include="Assets\Scripts\Player\playerController.cs" />
     <Compile Include="Assets\Scripts\Player\stats.cs" />
@@ -84,8 +87,6 @@
     <Compile Include="Assets\Scripts\Cinematicas\Script.cs" />
     <Compile Include="Assets\Scripts\Enemies\boss\projectile.cs" />
     <Compile Include="Assets\Scripts\Bote.cs" />
-    <Compile Include="Assets\Scripts\Enemies\zombie\zombie.cs" />
-    <Compile Include="Assets\Scripts\Enemies\zombie\arrow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NastyWizard_CelSobel\CelShadingSobel\Shaders\CelShading\CelShading.shader" />
