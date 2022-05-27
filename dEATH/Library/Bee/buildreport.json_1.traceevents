@@ -1,416 +1,415 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1653605114545776, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605114547140, "dur": 24239, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605114571522, "dur": 309771, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605114881312, "dur": 10524, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605121548437, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605121548672, "dur": 9448, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605121558122, "dur": 203191, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605121761315, "dur": 12543, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605121774227, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609097931625, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609097933079, "dur": 24590, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609097957831, "dur": 971923, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609098929772, "dur": 10251, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609105915662, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609105915975, "dur": 6899, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609105922876, "dur": 206355, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609106129233, "dur": 12280, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609106141900, "dur": 17, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1653605121587118, "dur":1738, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121588868, "dur":150, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1653605121589067, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1653605121589090, "dur":209, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1653605121589339, "dur":598, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121589937, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121723922, "dur":110, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724034, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724043, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724046, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724052, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724055, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724061, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724063, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724070, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724072, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724080, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724082, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724089, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724097, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121724115, "dur":1672, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1653605121589906, "dur":47, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121589953, "dur":2286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592239, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592282, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592305, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592318, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592326, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592338, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592346, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592357, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592368, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592391, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592399, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592427, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592438, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592452, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592462, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592474, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592483, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592494, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592503, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592516, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592525, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592538, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592547, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592565, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592574, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592586, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592595, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592604, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592612, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592623, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592631, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592641, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592651, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592663, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592672, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592681, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592689, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592699, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592709, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592719, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592790, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592805, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592813, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592823, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121592834, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593115, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593127, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593258, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593272, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593472, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593485, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593794, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593805, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593820, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593856, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593871, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593879, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593889, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593897, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593908, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593916, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593927, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593935, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593947, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593955, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593973, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121593993, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/NavMeshComponents.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121594339, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121594414, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121594704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121596526, "dur":11420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1653605121608004, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1653605121608025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121608031, "dur":42961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1653605121651006, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1653605121651021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1653605121651027, "dur":19520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1653605121670587, "dur":53325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121589958, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121589958, "dur":2275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592240, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592304, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592313, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592333, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592341, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592351, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592359, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592373, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592385, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592440, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592451, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592464, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592473, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592506, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592516, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592528, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592536, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592551, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592558, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592569, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592579, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592589, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592597, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592608, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592618, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592628, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592636, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592646, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592655, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592665, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592672, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592685, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592694, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592703, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592711, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592721, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592819, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592838, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121592852, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121593164, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121593192, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121593336, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121593350, "dur":1489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1653605121594839, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121594849, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1653605121594864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1653605121597482, "dur":126385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1653605121723883, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1653605121723885, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121589824, "dur":119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121589944, "dur":2307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592251, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592284, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592304, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592317, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592328, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592342, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592352, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592364, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592373, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592387, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592397, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH.exe" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592453, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592465, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592534, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592549, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592808, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592821, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592831, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592840, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592850, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121592858, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593045, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593057, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593246, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593264, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593501, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593515, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593682, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593697, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593710, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593718, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593729, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593738, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593760, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593772, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593783, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593801, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593822, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593830, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593841, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593849, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593857, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593866, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593877, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593885, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593895, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593903, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593913, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593930, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593948, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593957, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593970, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593978, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593989, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121593997, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594008, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594015, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594029, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594037, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/clipper_library.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594118, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594133, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594617, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594667, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653605121594684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121595848, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653605121598289, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":3, "ts":1653605121598303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121598307, "dur":18690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":3, "ts":1653605121617017, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653605121617038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121617048, "dur":24885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653605121641959, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level3.resS" }}
-,{ "pid":12345, "tid":3, "ts":1653605121641980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121641987, "dur":4800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level3.resS" }}
-,{ "pid":12345, "tid":3, "ts":1653605121646802, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level1.resS" }}
-,{ "pid":12345, "tid":3, "ts":1653605121646819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121646825, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level1.resS" }}
-,{ "pid":12345, "tid":3, "ts":1653605121649502, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1653605121649525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121649534, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1653605121651662, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653605121651679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121651684, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1653605121653574, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":3, "ts":1653605121653600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1653605121653610, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":3, "ts":1653605121656644, "dur":67269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121589898, "dur":52, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121589950, "dur":2284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592240, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592283, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592305, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592409, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592457, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592474, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592502, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592513, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592521, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592534, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592547, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592559, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592567, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592578, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592587, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592801, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592814, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592824, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121592834, "dur":2040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1653605121594875, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121594911, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1653605121594942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121598200, "dur":39073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1653605121637293, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1653605121637565, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121637584, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1653605121637749, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121637770, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1653605121637789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121637799, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1653605121640082, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1653605121640113, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121640128, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1653605121641961, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level3" }}
-,{ "pid":12345, "tid":4, "ts":1653605121641980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121641987, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level3" }}
-,{ "pid":12345, "tid":4, "ts":1653605121643825, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1653605121643847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121643858, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1653605121646398, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1653605121646423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121646435, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1653605121648672, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1653605121648698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121648723, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1653605121650413, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1653605121650428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121650809, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1653605121654570, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1653605121654717, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1653605121654735, "dur":69185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121589933, "dur":7, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121589940, "dur":2287, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592240, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592241, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592519, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592521, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592535, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592549, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592561, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592574, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592582, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592592, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592601, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592612, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592621, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592631, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592644, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592656, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592664, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592674, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592681, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592692, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592699, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592709, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592718, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592795, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592810, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592820, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592827, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592838, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121592845, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121593258, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121593271, "dur":1492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":5, "ts":1653605121594763, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121594775, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":5, "ts":1653605121594789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121597033, "dur":13164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":5, "ts":1653605121610211, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1653605121610235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1653605121610242, "dur":80302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1653605121690558, "dur":33339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121589984, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121589985, "dur":2251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592240, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592291, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592304, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592315, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592324, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592336, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592345, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592359, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592385, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592401, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592434, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592454, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592464, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592476, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592483, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592502, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592512, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592525, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592536, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592549, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592556, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592567, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592575, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592588, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592597, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592608, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592616, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592626, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592634, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592645, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592653, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592663, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592671, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592680, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592688, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592696, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592704, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592713, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592720, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592798, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592811, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592821, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592830, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592960, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121592970, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121593075, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121593086, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121593295, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121593305, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121593564, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121593577, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121593678, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121593693, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1653605121594439, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121594452, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":6, "ts":1653605121594585, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121594597, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1653605121594621, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121595357, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1653605121598728, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1653605121598742, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1653605121598746, "dur":81355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1653605121680128, "dur":43775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1653605121727277, "dur":14969, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1653605121774306, "dur": 450, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1653605121774217, "dur": 586, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1653609105944091, "dur":1705, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609105945805, "dur":156, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1653609105946007, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1653609105946029, "dur":185, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1653609105946229, "dur":544, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609105946773, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096641, "dur":103, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096744, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096757, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096760, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096767, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096769, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096775, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096778, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096784, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096786, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096793, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096795, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096803, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096814, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106096853, "dur":1625, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1653609105946725, "dur":54, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105946779, "dur":1963, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948750, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948751, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948769, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948771, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948781, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948803, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948813, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948826, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948834, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948918, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948957, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948971, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948980, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105948994, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949003, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949013, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949021, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949033, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949064, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949075, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949084, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949093, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949101, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949110, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949117, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949127, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949137, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949160, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949222, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949237, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949246, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949254, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949262, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949272, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949283, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949294, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949303, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949313, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949385, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949395, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949402, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949410, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949417, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949426, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949434, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949443, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105949453, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105950198, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105950212, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105950225, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105950234, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653609105950444, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105950457, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1653609105950484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105953462, "dur":17781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1653609105971256, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1653609105971278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653609105971284, "dur":95864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1653609106067163, "dur":29461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105947302, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105947302, "dur":1444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948751, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948790, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948806, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948821, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948834, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948848, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948857, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948869, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948880, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948925, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948947, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948962, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948973, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948986, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105948994, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949010, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949019, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949029, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949057, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949069, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949077, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949086, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949094, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949104, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949111, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949122, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949129, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949549, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949570, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949712, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949725, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949891, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105949904, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105950038, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105950058, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653609105950391, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105950403, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1653609105950416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653609105952361, "dur":144234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1653609106096611, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1653609106096614, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105946946, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105946946, "dur":1838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948784, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948820, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948830, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948847, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948891, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948937, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948946, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948963, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948974, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948984, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105948995, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949007, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949018, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949028, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949036, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949290, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949301, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949314, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949420, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949439, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949449, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949589, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949601, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949717, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949728, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949834, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105949848, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950007, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950020, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950121, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950133, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950147, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950155, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950165, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950172, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950182, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950190, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950199, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950207, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950216, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950225, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950433, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950443, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1653609105950457, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609105952908, "dur":50499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1653609106003435, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1653609106003923, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609106003939, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1653609106004060, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609106004075, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1653609106004090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609106004095, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1653609106006956, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1653609106006970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609106006976, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1653609106010484, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1653609106010511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609106010518, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1653609106012377, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1653609106012402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609106012411, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1653609106015203, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1653609106015221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609106015230, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1653609106017705, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1653609106017836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653609106017844, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1653609106020111, "dur":76525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105946821, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105946822, "dur":1960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948782, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948801, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948811, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948822, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948831, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948842, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948856, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948881, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105948889, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH.exe" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949147, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949161, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949254, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949270, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949286, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949294, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949303, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949311, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949428, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949445, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949459, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949467, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949649, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949660, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949752, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949762, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949979, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105949991, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950138, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950150, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950160, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950169, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950179, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950187, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950196, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950205, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950214, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950224, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950233, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950241, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950262, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105950887, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1653609105953832, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1653609105953847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653609105953851, "dur":97675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1653609106051539, "dur":45110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105947081, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105947082, "dur":1703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948785, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948814, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948827, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948838, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948848, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948870, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948950, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948979, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105948991, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949003, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949013, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949023, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949032, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949041, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949049, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949060, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949068, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949081, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949090, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949100, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949108, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949119, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949131, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949162, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949253, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949272, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949282, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949294, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949302, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949320, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949432, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949446, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949454, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949465, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949473, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949795, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949806, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949904, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105949917, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950013, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950024, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950128, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950141, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950152, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950161, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950170, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950179, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950190, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950199, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950209, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950217, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950233, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950241, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950353, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950365, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1653609105950378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105951857, "dur":18890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1653609105970770, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653609105970789, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609105970804, "dur":44647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1653609106015470, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1653609106015491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653609106015498, "dur":23131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1653609106038651, "dur":58016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105947182, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105947183, "dur":1581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948764, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948786, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948796, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948812, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948820, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948831, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948840, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948855, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948866, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948888, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948927, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948946, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948955, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948966, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948974, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948987, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105948995, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949011, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949020, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949029, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949037, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949046, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949054, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949063, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949072, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949081, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949089, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949099, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949107, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949116, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949123, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949133, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949248, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949267, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949278, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949288, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949296, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949307, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949316, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949413, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949429, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949442, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949453, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949951, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105949964, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950072, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950083, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950094, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950103, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950112, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950120, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950130, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950137, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950148, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950156, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950166, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950177, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950186, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950193, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950203, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950210, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950315, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950325, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1653609105950338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105951358, "dur":27427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1653609105978822, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1653609105978849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609105978863, "dur":25090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1653609106003970, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653609106003985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609106003994, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653609106006756, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653609106006777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609106006786, "dur":3672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653609106010483, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653609106010506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609106010518, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653609106012378, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1653609106012403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609106012411, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1653609106014306, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653609106014324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609106014333, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653609106016732, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1653609106016752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609106016761, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1653609106018807, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles M:/Unity/Projects/XP/Jams/Hades Jam/build/dEATH_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1653609106018964, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653609106018978, "dur":77665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653609106099795, "dur":1235, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1653609106141962, "dur": 527, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653609106141890, "dur": 646, "ph": "X", "name": "Write chrome-trace events", "args": {} },

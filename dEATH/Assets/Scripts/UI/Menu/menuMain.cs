@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class menuMain : MonoBehaviour
 {
 
-    public GameObject loading, setting, menu;
+    public GameObject loading, setting, menu, credits;
     public Dropdown drop;
     // Start is called before the first frame update
     void Start()
@@ -60,5 +60,19 @@ public class menuMain : MonoBehaviour
         QualitySettings.SetQualityLevel(drop.value, true);
     }
 
+
+    public void creditsL()
+    {
+        credits.SetActive(true);
+        menu.SetActive(false);
+        GetComponent<Animator>().SetTrigger("credits");
+    }
+
+
+    public void CreditsC()
+    {
+        credits.SetActive(false);
+        menu.SetActive(true);
+    }
 
 }

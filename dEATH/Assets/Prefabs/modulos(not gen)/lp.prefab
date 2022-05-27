@@ -172,6 +172,18 @@ PrefabInstance:
       propertyPath: troll
       value: 
       objectReference: {fileID: 7917990434963990399, guid: 895c2f2c28b28fa46a5312e05fa6f174, type: 3}
+    - target: {fileID: 126885825813070507, guid: 2f1c218a56f27f241b1890ac3d31a946, type: 3}
+      propertyPath: enemies.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 126885825813070507, guid: 2f1c218a56f27f241b1890ac3d31a946, type: 3}
+      propertyPath: enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 8664483825698075119, guid: 4c7a22642fd2b134f9a7ec6605fe021e, type: 3}
+    - target: {fileID: 126885825813070507, guid: 2f1c218a56f27f241b1890ac3d31a946, type: 3}
+      propertyPath: enemies.Array.data[1]
+      value: 
+      objectReference: {fileID: 7917990434963990399, guid: 895c2f2c28b28fa46a5312e05fa6f174, type: 3}
     - target: {fileID: 2199999268185562952, guid: 2f1c218a56f27f241b1890ac3d31a946, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.3
@@ -270,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7623203016158038076, guid: 2f1c218a56f27f241b1890ac3d31a946, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.6
+      value: 8.13
       objectReference: {fileID: 0}
     - target: {fileID: 7623203016158038076, guid: 2f1c218a56f27f241b1890ac3d31a946, type: 3}
       propertyPath: m_LocalPosition.z
