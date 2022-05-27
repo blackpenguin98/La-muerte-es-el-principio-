@@ -32,6 +32,13 @@ public class spear : MonoBehaviour
             hasDamaged = true;
 
         }
+        if (other.tag == "zombie")
+        {
+
+            other.GetComponent<zombie>().health -= damage;
+            hasDamaged = true;
+
+        }
 
     }
 }

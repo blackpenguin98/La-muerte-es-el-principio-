@@ -12,6 +12,7 @@ TagManager:
   - boss
   - floor
   - hand
+  - zombie
   layers:
   - Default
   - TransparentFX

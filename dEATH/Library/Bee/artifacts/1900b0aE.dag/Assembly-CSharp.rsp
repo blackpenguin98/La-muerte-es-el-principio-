@@ -375,6 +375,8 @@
 "Assets/Scripts/Enemies/Ciclops.cs"
 "Assets/Scripts/Enemies/hand/hand.cs"
 "Assets/Scripts/Enemies/hand/handPunchCol.cs"
+"Assets/Scripts/Enemies/zombie/arrow.cs"
+"Assets/Scripts/Enemies/zombie/zombie.cs"
 "Assets/Scripts/Generation/EnemieChecker.cs"
 "Assets/Scripts/Generation/EnemiesHanlder.cs"
 "Assets/Scripts/Generation/enemieSpawner.cs"

@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - PostProcessing_Sobel
     - Script
     - UI
+    - arrow
     - biteCollider
     - blood
     - bossActivator
@@ -27,6 +28,7 @@ ScriptsOnlyBuild:
     - projectile
     - spear
     - stats
+    - zombie
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineCollider
@@ -69,10 +71,7 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.Graphing.GraphObject
     - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
-    - UnityEditor.ShaderGraph.ShaderGraphImporterEditor
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     - UnityEditor.ShaderGraph.SubGraphAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -156,6 +155,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: menuMain
     methodName: LoadSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: menuMain
+    methodName: creditsL
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
@@ -210,6 +212,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -448,6 +452,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10114}
     - Class: 114
       Script: {instanceID: 10484}
+    - Class: 114
+      Script: {instanceID: 39102}
+    - Class: 114
+      Script: {instanceID: 45548}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1135,7 +1143,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: e44b4c5b1d5f4ac33a8361c059e5c242
+      Hash: 8a6358663005cd4678917e78c1b71bb0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: cerberus
@@ -1159,7 +1167,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDragMessageListener
   - hash:
       serializedVersion: 2
-      Hash: b97c7ecc04382244b288b82e5ad7584f
+      Hash: 976a0d737ecc12916c5a89a4c3c3be5d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: menuMain
@@ -2065,7 +2073,7 @@ ScriptsOnlyBuild:
     className: CinemachineTrackedDolly
   - hash:
       serializedVersion: 2
-      Hash: 8ed0fef258be0422b8a9c871c78316ef
+      Hash: 7c539291b34255785f6a5e373842e31b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: blood
@@ -2231,6 +2239,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d1f045943dc59e3600fcedb020428ef2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: zombie
+  - hash:
+      serializedVersion: 2
+      Hash: 2e3941a6abf839c5a72e3b87a889eea4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: arrow
   platform: 19
   scenePathNames:
   - Assets/Scenes/menu.unity
