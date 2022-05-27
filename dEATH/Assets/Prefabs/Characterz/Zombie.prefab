@@ -2047,10 +2047,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 30
-  range: 25
+  range: 30
   arrow: {fileID: 7112829234717782459, guid: f68b40a531f920645a37ba6378b38db0, type: 3}
   firing: {fileID: 506761639}
-  waitingTime: 8
+  waitingTime: 5
 --- !u!1 &6060113149614789179
 GameObject:
   m_ObjectHideFlags: 0
