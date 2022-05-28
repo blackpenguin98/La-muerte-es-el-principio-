@@ -3664,9 +3664,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Credits\n\n\nUnity Master and Coder\n______________\nEuclides M\xE1rquez\n\n\nSenior
-    3D Artist and Music\n_________\nRoberto Ramirez\n\n\n3D Artist\n__________\nIvan
-    Recio \n\n\nAnimator\n____________\nMarcelo Ortiz\n\n\nMusic and SFX\n________________\nJacob
+  m_Text: "Credits\n\nUnity Master and Coder\n______________\nEuclides M\xE1rquez\n\nSenior
+    3D Artist and Music\n_________\nRoberto Ramirez\n\n3D Artist\n__________\nIvan
+    Recio \n\nAnimator\n____________\nMarcelo Ortiz\n\nMusic and SFX\n________________\nJacob
     Brickman\n\n\n\n\n"
 --- !u!222 &1902030340
 CanvasRenderer:

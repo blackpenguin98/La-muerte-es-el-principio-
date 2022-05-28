@@ -7,7 +7,7 @@ public class Script : MonoBehaviour
 {
 
     public Animator gladiator, cerberus;
-    public GameObject cam;
+    public GameObject cam, loading;
 
     float time = 0;
 
@@ -96,6 +96,7 @@ public class Script : MonoBehaviour
 
         if(time >= 11)
         {
+            //loading.SetActive(true);
             SceneManager.LoadSceneAsync(2);
         }
 

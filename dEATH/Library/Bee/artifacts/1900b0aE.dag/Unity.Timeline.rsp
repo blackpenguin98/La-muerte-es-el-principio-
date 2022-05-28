@@ -322,6 +322,7 @@
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"M:/Unity/Projects/XP/Jams/Hades Jam/La-muerte-es-el-principio-/dEATH/Library/PackageCache/com.unity.cinemachine@2.8.4/Runtime/ThirdParty/clipper_library.dll"
 -r:"M:/Unity/Projects/XP/Jams/Hades Jam/La-muerte-es-el-principio-/dEATH/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/log4netPlastic.dll"

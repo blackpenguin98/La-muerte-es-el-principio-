@@ -158,7 +158,8 @@ public class cerberus : MonoBehaviour
         {
             if(GameObject.Find("BossStart") != null)
             {
-                SceneManager.LoadScene(1);
+                var scene = SceneManager.LoadSceneAsync(1);
+                
             }
             else
             {

@@ -14,6 +14,7 @@ public class InsideGenV2 : MonoBehaviour
     public int roomsToPlace = 10;
     public int seed;
     public int roomsPlacedActually = 0;
+    public NavMeshSurface surface;
 
 
     public int missingRooms = 0;
@@ -24,7 +25,7 @@ public class InsideGenV2 : MonoBehaviour
 
     List<GameObject> entries = new List<GameObject>();
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if (!debugging)
         {
@@ -447,6 +448,7 @@ public class InsideGenV2 : MonoBehaviour
         }
 
 
+        //surface.BuildNavMesh();
 
 
 

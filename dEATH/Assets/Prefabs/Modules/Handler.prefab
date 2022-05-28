@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e65068450ceaf64cb9ca8ce9d641360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  troll: {fileID: 8664483825698075119, guid: 4c7a22642fd2b134f9a7ec6605fe021e, type: 3}
+  enemies: []
   pos:
   - {fileID: 1017618847538986843}
 --- !u!1 &3615567410264383422

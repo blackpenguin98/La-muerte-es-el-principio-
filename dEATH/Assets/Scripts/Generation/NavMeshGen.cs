@@ -11,7 +11,7 @@ public class NavMeshGen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+      
     }
 
     // Update is called once per frame
@@ -21,20 +21,10 @@ public class NavMeshGen : MonoBehaviour
         if (!bakeOnce)
         {
             bakeOnce = true;
-            surfaces = GameObject.FindGameObjectsWithTag("floor");
-
-            for(int i = 0; i < surfaces.Length; i++)
-            {
-                if (surfaces[i].GetComponent<NavMeshSurface>() != null)
-                {
-                    surfaces[i].GetComponent<NavMeshSurface>().BuildNavMesh();
-                }
-                
-            }
+            GetComponent<NavMeshSurface>().BuildNavMesh();
+            GetComponent<MeshRenderer>().enabled = false;
+        }    
 
 
-
-        }
-        
     }
 }
