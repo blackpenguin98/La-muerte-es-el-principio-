@@ -24,6 +24,8 @@ public class Ciclops : MonoBehaviour
     float timePassed = 0;
     public float waitingTime = 2;
 
+    public AudioSource hit, missed;
+
     bool attaking;
     // Start is called before the first frame update
     void Start()
@@ -108,6 +110,10 @@ public class Ciclops : MonoBehaviour
             GameObject.Find("iddle").GetComponent<Animator>().SetTrigger("trow");
             player.GetComponent<stats>().health -= damage;
             player.GetComponent<playerController>().trowing = true;
+            hit.Play();
+        } else
+        {
+            missed.Play();
         }
     }
 

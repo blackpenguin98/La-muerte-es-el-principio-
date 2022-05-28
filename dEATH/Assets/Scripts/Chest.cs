@@ -10,6 +10,7 @@ public class Chest : MonoBehaviour
         {
             other.GetComponent<stats>().health = 100;
             GetComponent<Animator>().SetTrigger("open");
+            GetComponent<AudioSource>().Play();
             
         }
     }

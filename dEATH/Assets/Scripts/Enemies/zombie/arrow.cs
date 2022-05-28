@@ -9,11 +9,13 @@ public class arrow : MonoBehaviour
     public int damage = 20;
     GameObject player;
     public float arrowhitted;
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(destroyArrow());
+        audioSource = GameObject.Find("Archer_Hit_1").GetComponent<AudioSource>();
         
     }
 
@@ -26,6 +28,7 @@ public class arrow : MonoBehaviour
         if(Vector3.Distance(transform.position, player.transform.position) <= arrowhitted)
         {
             player.GetComponent<stats>().health -= damage;
+            audioSource.Play();
             Destroy(gameObject);
         }
 

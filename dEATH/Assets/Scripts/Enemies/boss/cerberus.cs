@@ -38,6 +38,9 @@ public class cerberus : MonoBehaviour
 
     public GameObject canvas;
 
+    AudioSource bossMusic;
+
+    bool onceM;
 
     // Start is called before the first frame update
     void Start()
@@ -52,9 +55,19 @@ public class cerberus : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        bossMusic = GameObject.Find("BossMusic").GetComponent<AudioSource>();
+
         if (isActive)
         {
             canvas.SetActive(true);
+
+            if (!onceM)
+            {
+                onceM = true;
+                bossMusic.Play();
+            }
+
         }
 
 

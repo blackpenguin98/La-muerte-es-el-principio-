@@ -64,6 +64,7 @@ public class hand : MonoBehaviour
         if (inRange)
         {
             GameObject.Find("Player").GetComponent<stats>().health -= damage;
+            GetComponent<AudioSource>().Play();
         }
     }
 
