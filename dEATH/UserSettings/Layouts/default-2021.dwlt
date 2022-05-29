@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 471}
   m_MaxSize: {x: 10000, y: 10000}
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 446
     height: 566
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -402,23 +402,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b437feff6053feff2cd0ffff1cfbffff
+      m_SelectedIDs: 46650000
+      m_LastClickedID: 25926
+      m_ExpandedIDs: fce1ffff1cfbffff22650000866500006a660000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: hit (1)
-        m_OriginalName: hit (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -340746
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -1692,9 +1692,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 175.98515, y: 296.7118, z: -942.3087}
+    m_Target: {x: 466, y: 262, z: 0}
     speed: 2
-    m_Value: {x: 175.98515, y: 296.7118, z: -942.3087}
+    m_Value: {x: 466, y: 262, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1741,13 +1741,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2874577, y: -0.6302262, z: 0.27203554, w: 0.66830015}
+    m_Target: {x: 0.08066725, y: 0.12496412, z: -0.009648439, w: 0.989056}
     speed: 2
-    m_Value: {x: 0.28739372, y: -0.6300859, z: 0.27197498, w: 0.6681514}
+    m_Value: {x: 0.08064918, y: 0.12493613, z: -0.009646278, w: 0.9888345}
   m_Size:
-    m_Target: 310.08087
+    m_Target: 387.8289
     speed: 2
-    m_Value: 310.08087
+    m_Value: 387.8289
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1813,22 +1813,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Music/New Folder
+    - Assets/2d
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Music/New Folder
+  - Assets/2d
   m_LastFoldersGridSize: -1
   m_LastProjectPath: M:\Unity\Projects\XP\Jams\Hades Jam\La-muerte-es-el-principio-\dEATH
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 464}
-    m_SelectedIDs: 5e6a0000
-    m_LastClickedID: 27230
-    m_ExpandedIDs: 000000003e68000040680000426800004468000046680000486800004a6800004c6800004e680000506800005268000054680000cc69000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1e930000
+    m_LastClickedID: 37662
+    m_ExpandedIDs: 000000000a8f00000c8f00000e8f0000108f0000128f0000148f0000168f0000188f00001a8f00001c8f00001e8f0000208f00006093000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1856,7 +1856,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e68000040680000426800004468000046680000486800004a6800004c6800004e680000506800005268000054680000
+    m_ExpandedIDs: 000000000a8f00000c8f00000e8f0000108f0000128f0000148f0000168f0000188f00001a8f00001c8f00001e8f0000208f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1881,8 +1881,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 86650000
+    m_LastClickedInstanceID: 25990
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300009a5a0000da5c0000ce5c00009e5e0000ac6300001a650000ea5e0000d4600000fc600000be7d0000a4870000966f0000d452010048680000266800000267000082810000266d0000a2730000ca730000306a0000347c0000000000000a6d0000ae650000ee870000
     m_RenameOverlay:
@@ -1975,7 +1975,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 46
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
