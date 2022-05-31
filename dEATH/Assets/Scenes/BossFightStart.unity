@@ -804,11 +804,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7804035023389705585, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000016963362
+      value: -0.000000016963348
       objectReference: {fileID: 0}
     - target: {fileID: 7804035023389705585, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000028816836
+      value: 0.0000000028816816
       objectReference: {fileID: 0}
     - target: {fileID: 7804035024471754106, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -845,6 +845,14 @@ PrefabInstance:
     - target: {fileID: 7804035024957767036, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_LocalPosition.z
       value: -41.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804035024957767037, guid: 20a7209a972549b48af418e74f204753, type: 3}
+      propertyPath: m_XAxis.m_InvertInput
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804035024957767037, guid: 20a7209a972549b48af418e74f204753, type: 3}
+      propertyPath: m_YAxis.m_InvertInput
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8978455861575761417, guid: 20a7209a972549b48af418e74f204753, type: 3}
       propertyPath: m_RootOrder

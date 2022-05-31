@@ -201,6 +201,7 @@
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"M:/Unity/Inatalls/2021.3.2f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
